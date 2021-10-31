@@ -1,0 +1,5 @@
+RewriteEngine On
+Options All -Indexes
+
+#RewriteCond %{HTTP_REFERER} !^http://localhost/upload%20files/ [NC]
+#RewriteRule \.(gif|jpg|jpeg|png|mp4|mov|mkv|pdf|dox|flv)$ - [F,L]
