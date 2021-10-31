@@ -4,7 +4,7 @@ require("function.inc.php");
 require_once "vendor/autoload.php";
 $clientid = "843786859159-4b6v1ub5f7r11at8lu4qat4hnnetefok.apps.googleusercontent.com";
 $clientsecret = "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";
-$redirecturl = "http://localhost/index.php";
+$redirecturl = "https://cloudsek-project.herokuapp.com/";
 
 $client = new Google_Client();
 $client->setClientId($clientid);
